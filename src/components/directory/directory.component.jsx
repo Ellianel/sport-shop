@@ -10,9 +10,9 @@ const categories = [
 	},
 	{
 		id: 2,
-		title: 'football balls',
+		title: 'balls',
 		imageUrl: 'https://i.ibb.co/Y7YhCZt/2022-world-cup-adidas-al-rihla-official-match-ball.png',
-		route: 'shop/football balls',
+		route: 'shop/balls',
 	},
 	{
 		id: 3,
@@ -30,7 +30,7 @@ const categories = [
 		id: 5,
 		title: 'accessories',
 		imageUrl: 'https://i.ytimg.com/vi/wXwfIjrjHpo/hqdefault.jpg',
-		route: 'shop/accesories',
+		route: 'shop/accessories',
 	},
 ]
 

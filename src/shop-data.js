@@ -62,12 +62,12 @@ const SHOP_DATA = [
 		],
 	},
 	{
-		title: 'Football balls',
+		title: 'Balls',
 		items: [
 			{
 				id: 10,
 				name: 'Adidas Al Rihla',
-				imageUrl: 'http://football-balls.com/ball_files/2022-world-cup-adidas-al-rihla-official-match-ball.png',
+				imageUrl: 'https://i.ibb.co/Y7YhCZt/2022-world-cup-adidas-al-rihla-official-match-ball.png',
 				price: 250,
 			},
 			{
@@ -79,41 +79,38 @@ const SHOP_DATA = [
 			{
 				id: 12,
 				name: 'Molten Europa League 2022/23',
-				imageUrl: 'http://football-balls.com/ball_files/2022-2023-uefa-europa-league-official-match-ball.png',
+				imageUrl: 'https://i.ibb.co/7yhgP89/2022-2023-uefa-europa-league-official-match-ball.png',
 				price: 210,
 			},
 
 			{
 				id: 13,
 				name: 'Puma Orbita Spanish La Liga 2022/2023 season.',
-				imageUrl: 'http://football-balls.com/ball_files/2022-2023-la-liga-puma-orbita-official-match-ball.png',
+				imageUrl: 'https://i.ibb.co/b18GpGj/2022-2023-la-liga-puma-orbita-official-match-ball.png',
 				price: 180,
 			},
 			{
 				id: 14,
 				name: 'Nike Flight 2022',
-				imageUrl:
-					'http://football-balls.com/ball_files/2022-2023-english-premier-league-nike-flight-2022-official-match-ball.png',
+				imageUrl: 'https://i.ibb.co/tXVz2qS/2022-2023-english-premier-league-nike-flight-2022-official-match-ball.png',
 				price: 160,
 			},
 			{
 				id: 15,
 				name: 'Nike Flight WE',
-				imageUrl:
-					'http://football-balls.com/ball_files/2022-uefa-womens-euro-cup-nike-flight-we-official-match-ball.png',
+				imageUrl: 'https://i.ibb.co/sWkbZWr/2022-uefa-womens-euro-cup-nike-flight-we-official-match-ball.png',
 				price: 160,
 			},
 			{
 				id: 16,
 				name: 'Kipsta Uber Eats',
-				imageUrl: 'http://football-balls.com/ball_files/2022-2023-ligue-1-kipsta-uber-eats-official-match-ball.png',
+				imageUrl: 'https://i.ibb.co/WDsd4SW/2022-2023-ligue-1-kipsta-uber-eats-official-match-ball.png',
 				price: 190,
 			},
 			{
 				id: 17,
 				name: 'Derbystar Brillant APS 2022',
-				imageUrl:
-					'http://football-balls.com/ball_files/2022-2023-bundesliga-derbystar-brillant-aps-official-match-ball.png',
+				imageUrl: 'https://i.ibb.co/Y7YhCZt/2022-world-cup-adidas-al-rihla-official-match-ball.png',
 				price: 200,
 			},
 		],
