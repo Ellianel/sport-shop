@@ -9,26 +9,16 @@ import {
 	signOut,
 	onAuthStateChanged,
 } from 'firebase/auth'
-import {
-	getFirestore,
-	doc,
-	getDoc,
-	setDoc,
-	collection,
-	writeBatch,
-	query,
-	getDocs,
-	querySnapshot,
-} from 'firebase/firestore'
+import { getFirestore, doc, getDoc, setDoc, collection, writeBatch, query, getDocs } from 'firebase/firestore'
 
 const firebaseConfig = {
-	apiKey: 'AIzaSyAi15-i72-zrZo5AaAMmAxP9WOkAoeLdI4',
-	authDomain: 'football-love-a4e6f.firebaseapp.com',
-	projectId: 'football-love-a4e6f',
-	storageBucket: 'football-love-a4e6f.appspot.com',
-	messagingSenderId: '1051418927858',
-	appId: '1:1051418927858:web:dce6ba6a94d45a2219666b',
-	measurementId: 'G-2CVH29FNFS',
+	apiKey: 'AIzaSyDBSSJabuvfbOIa-leWiary7CLLR4zI1FA',
+	authDomain: 'sport-shop-39cce.firebaseapp.com',
+	projectId: 'sport-shop-39cce',
+	storageBucket: 'sport-shop-39cce.appspot.com',
+	messagingSenderId: '946082792371',
+	appId: '1:946082792371:web:3e95274f1813b55734c1c6',
+	measurementId: 'G-TE9TSBHGQ0',
 }
 
 const firebaseApp = initializeApp(firebaseConfig)
@@ -58,7 +48,7 @@ export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => 
 }
 
 export const getCategoriesAndDocuments = async () => {
-	const collectionRef = collection(db, '')
+	const collectionRef = collection(db, 'categories')
 	const q = query(collectionRef)
 
 	const querySnapshot = await getDocs(q)
