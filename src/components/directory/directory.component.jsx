@@ -24,7 +24,7 @@ const categories = [
 		id: 4,
 		title: 'kits',
 		imageUrl: 'https://i.ibb.co/bLQG6cQ/RealM.jpg',
-		route: 'shop/boots',
+		route: 'shop/kits',
 	},
 	{
 		id: 5,
